@@ -27,8 +27,10 @@ namespace MvcMovie.Controllers
             return View();
         }
 
-        public IActionResult West()
+        [HttpPost]
+        public IActionResult West(Users usario)
         {
+
             return View();
 
         }
